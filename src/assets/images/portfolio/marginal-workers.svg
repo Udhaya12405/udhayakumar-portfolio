@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560">
+<rect width="900" height="560" fill="#17131c"/><rect x="55" y="55" width="790" height="450" rx="24" fill="#231d2b" stroke="#e7a4d4" stroke-width="3"/>
+<text x="90" y="140" fill="#e7a4d4" font-family="Arial" font-size="34" font-weight="700">Tamil Nadu Marginal Workers</text>
+<text x="90" y="195" fill="#fff" font-family="Arial" font-size="23">Census 2011 • Socioeconomic Analysis</text>
+<rect x="105" y="300" width="90" height="120" fill="#e7a4d4"/><rect x="235" y="250" width="90" height="170" fill="#c987b8"/><rect x="365" y="330" width="90" height="90" fill="#e7a4d4"/><rect x="495" y="220" width="90" height="200" fill="#c987b8"/><rect x="625" y="285" width="90" height="135" fill="#e7a4d4"/>
+<text x="90" y="460" fill="#ccc" font-family="Arial" font-size="20">Python • Pandas • Scikit-learn • EDA • K-Means</text></svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560">
+<rect width="900" height="560" fill="#17131c"/><rect x="55" y="55" width="790" height="450" rx="24" fill="#231d2b" stroke="#e7a4d4" stroke-width="3"/>
+<text x="90" y="140" fill="#e7a4d4" font-family="Arial" font-size="34" font-weight="700">AI Speech Analysis</text>
+<text x="90" y="195" fill="#fff" font-family="Arial" font-size="23">3D Spectrogram • Transformer • Deep Learning</text>
+<path d="M90 370 C150 270 190 450 250 340 S350 250 410 360 S510 450 570 315 S670 260 730 355 S790 420 820 320" fill="none" stroke="#e7a4d4" stroke-width="7"/>
+<line x1="90" y1="410" x2="820" y2="410" stroke="#777" stroke-width="2"/>
+<text x="90" y="460" fill="#ccc" font-family="Arial" font-size="20">Tacotron2 + HiFi-GAN + PyTorch</text></svg>

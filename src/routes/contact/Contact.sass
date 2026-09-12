@@ -1,0 +1,168 @@
+@use '../../core-ui/_base' as base
+
+.landing__contact, .contact
+    padding: 1.5rem
+    display: flex
+    flex-direction: column
+    gap: 2rem
+    h2
+        font-size: 2.5rem
+        letter-spacing: 1px
+    p
+        font-size: 1.5rem
+        line-height: 1.65
+    @media (min-width: base.$sm-width)
+        padding: 2rem
+        h2
+            font-size: 4rem
+    @media (min-width: base.$lg-width)
+        width: 70%
+
+.contact-details
+    width: 100%
+    display: grid
+    grid-template-columns: 1fr
+    gap: 1rem
+
+.contact-detail-card
+    display: flex
+    align-items: center
+    gap: 1rem
+    padding: 1rem 1.1rem
+    box-sizing: border-box
+    border: 1px solid var(--border-color)
+    border-radius: 16px
+    background: var(--card-bg)
+    color: var(--text-color)
+    box-shadow: 0 10px 25px var(--shadow-color)
+    transition: transform 0.25s ease, border-color 0.25s ease
+
+    &:hover
+        transform: translateY(-3px)
+        border-color: var(--accent-color)
+
+.contact-detail-icon
+    width: 46px
+    height: 46px
+    flex: 0 0 46px
+    display: grid
+    place-items: center
+    border-radius: 13px
+    color: var(--accent-color)
+    background: var(--page-bg)
+    border: 1px solid var(--border-color)
+
+    svg
+        width: 24px
+        height: 24px
+
+.contact-detail-copy
+    min-width: 0
+    display: flex
+    flex-direction: column
+    gap: 0.25rem
+
+.contact-detail-label
+    color: var(--muted-color)
+    font-family: base.$body-font
+    font-size: 0.78rem
+    text-transform: uppercase
+    letter-spacing: 1.2px
+
+.contact-detail-value
+    color: var(--text-color)
+    font-family: base.$body-font
+    font-size: 1rem
+    font-weight: 500
+    overflow-wrap: anywhere
+
+@media (min-width: base.$md-width)
+    .contact-details
+        grid-template-columns: repeat(2, minmax(0, 1fr))
+
+.form-success
+    display: flex
+    flex-direction: column
+    font-family: base.$body-font
+    h3
+        color: var(--accent-color)
+    p
+        font-size: 1rem
+        color: var(--text-color)
+    button
+        background-color: transparent
+        border-width: 1px
+        border-color: var(--text-color)
+        color: var(--text-color)
+        border-style: solid
+        letter-spacing: 1px
+        padding: 1rem
+        width: 10rem
+        max-width: 50%
+        text-align: center
+        font-family: base.$body-font
+        opacity: 0.9
+        background: linear-gradient(to right, var(--accent-color) 50%, transparent 50%)
+        background-size: 200% 100%
+        background-position: right bottom
+        transition: all 0.4s ease
+
+.form
+    display: flex
+    flex-direction: column
+    gap: 2rem
+
+    input, textarea
+        width: 100%
+        border: 1px solid var(--border-color)
+        outline: none
+        background-color: var(--card-bg)
+        color: var(--text-color)
+        padding: 1rem
+        box-sizing: border-box
+        border-radius: 10px
+        transition: border-color 0.2s ease, background-color 0.2s ease
+
+        &:focus
+            border-color: var(--accent-color)
+
+    input::placeholder, textarea::placeholder
+        color: var(--muted-color)
+        opacity: 1
+        font-family: base.$body-font
+        font-size: 1rem
+        letter-spacing: 1px
+
+    input[type="text"], textarea
+        color: var(--text-color)
+        font-family: base.$body-font
+        font-size: 1rem
+        letter-spacing: 0.5px
+
+    textarea
+        height: 10rem
+        max-height: 100%
+        resize: vertical
+
+    button
+        background-color: transparent
+        border: 1px solid var(--text-color)
+        color: var(--text-color)
+        padding: 1rem
+        width: 10rem
+        max-width: 50%
+        text-align: center
+        font-family: base.$body-font
+        opacity: 0.9
+        background: linear-gradient(to right, var(--accent-color) 50%, transparent 50%)
+        background-size: 200% 100%
+        background-position: right bottom
+        transition: all 0.4s ease
+
+    span
+        position: absolute
+        color: var(--accent-color)
+        opacity: 0.85
+
+.contact
+    grid-column: span 3

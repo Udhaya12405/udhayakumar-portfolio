@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#14b8a6"/><stop offset="1" stop-color="#635bff"/></linearGradient></defs>
+  <rect width="1200" height="760" rx="36" fill="#10131a"/>
+  <rect x="90" y="70" width="1020" height="620" rx="30" fill="#171b24" stroke="#3b4252" stroke-width="4"/>
+  <rect x="145" y="125" width="910" height="105" rx="18" fill="url(#g)"/>
+  <text x="195" y="195" fill="white" font-family="Arial, sans-serif" font-size="50" font-weight="700">ONLINE JOB PORTAL</text>
+  <rect x="150" y="285" width="900" height="80" rx="16" fill="#232a38"/>
+  <rect x="185" y="312" width="360" height="26" rx="13" fill="#8892a5"/>
+  <rect x="570" y="305" width="150" height="40" rx="12" fill="#635bff"/>
+  <rect x="745" y="305" width="150" height="40" rx="12" fill="#2dd4bf"/>
+  <g fill="#232a38"><rect x="150" y="405" width="270" height="190" rx="18"/><rect x="465" y="405" width="270" height="190" rx="18"/><rect x="780" y="405" width="270" height="190" rx="18"/></g>
+  <g fill="#8d96a8"><rect x="180" y="440" width="150" height="20" rx="10"/><rect x="180" y="480" width="200" height="14" rx="7"/><rect x="495" y="440" width="150" height="20" rx="10"/><rect x="495" y="480" width="200" height="14" rx="7"/><rect x="810" y="440" width="150" height="20" rx="10"/><rect x="810" y="480" width="200" height="14" rx="7"/></g>
+</svg>
